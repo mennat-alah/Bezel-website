@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: rgb(0, 213, 238);
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+ul {
+  list-style: none; /* Removes the bullet points */
+  padding: 0; /* Removes the default left indentation */
+  margin: 0; /* Removes the default top and bottom spacing */
+}
+.main-color {
+  color: var(--main-color);
+}
+.main-btn {
+  background-color: var(--main-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: white;
+  transition: background 0.3s ease;
+}
+.second-btn {
+  background-color: transparent;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border: 1px solid white;
+  color: white;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h2 {
+  color: #787878;
+  opacity: 0.06;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.sub-title {
+  font-size: 1.3rem;
+  color: #787878;
+}
+/* -------------------------------------------------------------------------- */
+/* navbar */
+nav .icon a{
+  color: rgba(0,0,0, 0.65)
+;
+  transition: color 0.3;
+}
+
+
+/* </navbar> */
+/* -------------------------------------------------------------------------- */
+/* header */
+.header-one {
+  background-image: url(../images/bg-image-28.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.header-two {
+  background-image: url(../images/bg-image-29.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+header .header-lark-layer {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  width: 100%;
+}
+header h1 {
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+header p {
+  font-size: 1.14rem;
+}
+header .carousel-control-prev,
+header .carousel-control-next {
+  height: max-content;
+  width: max-content;
+}
+header .carousel-control-prev {
+  top: 47%;
+  background-color: transparent;
+  color: white;
+}
+header .carousel-control-next {
+  top: 52%;
+  background-color: transparent;
+  color: white;
+}
+
+
+/* </header> */
+/* -------------------------------------------------------------------------- */
+/* about */
+#about {
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+#about h4 {
+  font-size: 1rem;
+}
+#about p {
+  font-size: 1.5rem;
+  color: rgb(120, 120, 120);
+  font-weight: 300;
+}
+#about button {
+  border: 1px solid rgb(222, 222, 222);
+}
+.about-content {
+  width: 50%;
+}
+/* </about> */
+/* -------------------------------------------------------------------------- */
+/* team */
+.team-info {
+  background-color: rgba(0, 195, 218, 0.9);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  transition:
+    top 0.8s ease,
+    opacity 1.2s ease;
+}
+.team-member-info h5 {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.team-member-info h6 {
+  font-size: 0.85rem;
+}
+
+.icon-team a {
+  transition: text-shadow 0.3s ease;
+  color: white;
+}
+
+/* </team> */
+/* -------------------------------------------------------------------------- */
+/* services */
+#services {
+  background-color: #636363;
+}
+#services .services-categories p {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: white;
+}
+#services .section-title h2 {
+  color: white;
+  opacity: 0.06;
+}
+#services p {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: white;
+}
+#services li {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: white;
+}
+/* </services> */
+/* -------------------------------------------------------------------------- */
+/* Pricing */
+#pricing {
+  background-color: #f7f7f7;
+}
+#pricing .pricing-offer h5 {
+  font-size: 4rem;
+  font-weight: 500;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+#pricing .pricing-offer h5 sup {
+  font-weight: 400;
+  font-size: 1.15rem;
+  vertical-align: super;
+  line-height: 0;
+}
+#pricing li {
+  margin-bottom: 1.5rem;
+  color: #787878;
+  font-size: 1.1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+}
+#pricing .badge {
+  background-color: var(--main-color);
+}
+.best-offer {
+  transform: scale(1.1);
+}
+#pricing .best-offer h5 {
+  color: var(--main-color);
+}
+/* </Pricing> */
+/* -------------------------------------------------------------------------- */
+/* testmonial  */
+#testmonial {
+  background-color: #f7f7f7;
+}
+#testmonial h4 {
+  font-size: 1rem;
+}
+#testmonial h5 {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+#testmonial h6 {
+  color: #787878;
+  font-size: 0.9rem;
+}
+#testmonial p {
+  font-weight: 300;
+  color: #787878;
+  font-size: 1.3rem;
+}
+#testmonial .feadback-img {
+  width: 80px;
+  height: 80px;
+  z-index: 10;
+}
+#testmonial .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+#testmonial .carousel-inner {
+  overflow: visible;
+}
+
+#testmonial .carousel-item {
+  overflow: visible;
+}
+/* Inactive buttons */
+#testmonial .carousel-indicators [data-bs-target]:not(.active) {
+  background-color: gray;
+}
+
+/* Active button */
+#testmonial .carousel-indicators [data-bs-target].active {
+  background-color: var(--main-color);
+}
+#testmonial .carousel-control-prev i {
+  transition: color 0.3s;
+}
+#testmonial .carousel-control-next i {
+  transition: color 0.3s;
+}
+#testmonial .testmonial-content{
+  width: 75%;
+}
+/* </testmonial> */
+/* -------------------------------------------------------------------------- */
+/* contacts */
+#contacts iframe{
+  width: 100%;
+}
+/* </contacts> */
+/* -------------------------------------------------------------------------- */
+/* hover */
+nav .icon a:hover{
+  color: black;
+}
+.main-btn:hover {
+  background: RGB(0, 213, 238);
+  background: linear-gradient(
+    330deg,
+    rgba(0, 213, 238, 1) 0%,
+    rgba(188, 228, 232, 1) 48%,
+    rgba(0, 213, 238, 1) 100%
+  );
+}
+.second-btn:hover {
+  background-color: white;
+  color: black;
+}
+header .carousel-control-prev:hover {
+  background-color: white;
+  color: black;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+header .carousel-control-next:hover {
+  background-color: white;
+  color: black;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+.team-member:hover .team-info {
+  top: 0;
+  opacity: 1;
+}
+.icon-team a:hover {
+  text-shadow: 2px 2px 8px #ffffff;
+}
+#testmonial .carousel-control-prev:hover i {
+  color: var(--main-color) !important;
+}
+#testmonial .carousel-control-next:hover i {
+  color: var(--main-color) !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Responsive */
+
+@media screen and (max-width: 992px) {
+  .best-offer {
+    transform: scale(1);
+  }
+  #testmonial .carousel-control-prev,
+  #testmonial .carousel-control-next {
+    display: none;
+  }
+  #testmonial .testmonial-content{
+  width: 100%;
+}
+}
+@media screen and (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0;
+  }
+  #about p {
+    font-size: 1.25rem;
+  }
+  .about-content {
+    width: 75%;
+  }
+  .icon {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-content {
+    width: 90%;
+  }
+}
