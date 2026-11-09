@@ -10,7 +10,7 @@ I completed the project in approximately **6 hours**, focusing on implementing t
 
 ## Live Demo
 
-
+https://mennat-alah.github.io/Bezel-website/
 
 ## Features
 
